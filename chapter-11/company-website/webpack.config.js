@@ -2,6 +2,8 @@ var webpack = require("webpack")
 var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 var path = require('path')
 
+//zivo me interesuje da li vo moze kao es6
+
 process.noDeprecation = true
 
 module.exports = {
