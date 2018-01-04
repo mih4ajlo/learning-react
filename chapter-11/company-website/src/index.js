@@ -19,6 +19,12 @@ import {Home} from './pages/Home'
 
 import {About, Services, History, Location} from './pages/About'
 
+import {store} from './redux/InitRedux'
+
+
+
+console.log( store.getState() );
+
 window.React = React
 
 render(

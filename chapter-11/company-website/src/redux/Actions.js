@@ -1,0 +1,18 @@
+export const actions = {
+	UVECAJ_BROJ : "UVECAJ_BROJ", //inc
+	UMANJI_BROJ : "UMANJI_BROJ", //dec
+	IZBRISI_BROJ : "IZBRISI_BROJ", //delete
+	ZAMENI_BROJ : "ZAMENI_BROJ" //delete+insert - update
+};
+
+
+export const operacije_sa_mackama = {
+	NAHRANI_SVE : "NAHRANI_SVE",
+	NAPOJ_SVE : "NAPOJ_SVE",
+	NAHRANI_PARNE : "NAHRANI_PARNE",
+	NAHRANI_NEPARNE : "NAHRANI_NEPARNE",
+	NAHRANI_ALERGICNE : "NAHRANI_ALERGICNE",
+	DAJ_LEKOVE : "DAJ_LEKOVE"
+
+};
+
